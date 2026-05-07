@@ -19,7 +19,9 @@ janela.title('Download de vídeos do Youtube')
 
 # elementos da tela 
 # label título
-titulo = ctk.CTkLabel(janela, text='Download de vídeos do Youtube')
+titulo = ctk.CTkLabel(janela, text='Download de vídeos do Youtube',
+                      font=('Arial', 22),
+                      text_color='#016FFC')
 titulo.pack(pady=20)
 
 # icone da janela 
